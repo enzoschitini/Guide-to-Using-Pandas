@@ -5,24 +5,8 @@ By [Enzo Schitini]('https://www.linkedin.com/in/enzoschitini/')
 
 Data Scientist & Data Analyst • SQL • Expert Bubble.io • UX & UI @ Scituffy creator
 
-Pandas è una delle librerie più potenti e ampiamente utilizzate per la manipolazione e l'analisi dei dati in Python. Che tu sia un aspirante data scientist, un analista esperto o semplicemente qualcuno che lavora con i dati, padroneggiare Pandas può migliorare notevolmente la tua produttività e le capacità di elaborazione dei dati. Questa guida ha l'obiettivo di fornire una panoramica completa dei metodi e delle funzioni essenziali di Pandas, permettendoti di affrontare operazioni complesse sui dati con facilità ed efficienza.
+Pandas is one of the most powerful and widely used libraries for data manipulation and analysis in Python. Whether you are an aspiring data scientist, an experienced analyst, or simply someone who works with data, mastering Pandas can greatly improve your productivity and data processing skills. This guide aims to provide a comprehensive overview of Pandas' essential methods and functions, allowing you to tackle complex data operations with ease and efficiency.
 
-In questa guida esplorerai concetti fondamentali, come la pulizia dei dati, la trasformazione, l'aggregazione e le tecniche di visualizzazione utilizzando Pandas. Attraverso esempi pratici e istruzioni passo-passo, acquisirai una comprensione più profonda di come sfruttare al massimo il potenziale di Pandas per semplificare e potenziare i tuoi flussi di lavoro con i dati. Iniziamo!
-### `Useremo:` ddddddddddddddddd
-| order_id                            | customer_state | product_category_name | product_weight_g | review_score | price | freight_value | payment_value | order_approved_at     | order_purchase_timestamp |
-|-------------------------------------|----------------|-----------------------|------------------|--------------|-------|---------------|---------------|-----------------------|-------------------------|
-| 00010242fe8c5a6d1ba2dd792cb16214    | RJ             | cool_stuff            | 650.0            | 5            | 58.9  | 13.29         | 72.19         | 2017-09-13 09:45:35   | 2017-09-13 08:59:02     |
-| 130898c0987d1801452a8ed92a670612    | GO             | cool_stuff            | 650.0            | 5            | 55.9  | 17.96         | 73.86         | 2017-06-29 02:44:11   | 2017-06-28 11:52:20     |
-| 532ed5e14e24ae1f0d735b91524b98b9    | MG             | cool_stuff            | 650.0            | 4            | 64.9  | 18.33         | 83.23         | 2018-05-18 12:31:43   | 2018-05-18 10:25:53     |
-| 6f8c31653edb8c83e1a739408b5ff750    | PR             | cool_stuff            | 650.0            | 5            | 58.9  | 16.17         | 75.07         | 2017-08-01 18:55:08   | 2017-08-01 18:38:42     |
-| 7d19f4ef4d04461989632411b7e588b9    | MG             | cool_stuff            | 650.0            | 5            | 58.9  | 13.29         | 72.19         | 2017-08-10 22:05:11   | 2017-08-10 21:48:40     |
-``` python
-import pandas as pd
-df = pd.read_csv('https://raw.githubusercontent.com/enzoschitini/Guide-to-Using-Pandas/refs/heads/main/pandas_csv_guide.csv').drop(columns='Unnamed: 0')
-
-```
-
-[Link Data](https://github.com/enzoschitini/Guide-to-Using-Pandas/blob/main/pandas_csv_guide.csv)
 ### 1. **Caricamento dei Dati**
 
 - `pd.read_csv()` – Carica dati da un file CSV.
