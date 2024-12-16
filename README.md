@@ -3,9 +3,14 @@ This guide provides a practical overview of the main Pandas methods and function
 
 By [Enzo Schitini]('https://www.linkedin.com/in/enzoschitini/')
 
-Data Scientist & Data Analyst • SQL • Expert Bubble.io • UX & UI @ Scituffy creator
+Data Scientist & Data Analyst • SQL • Expert Bubble.io • UX & UI 
 
-Pandas is one of the most powerful and widely used libraries for data manipulation and analysis in Python. Whether you are an aspiring data scientist, an experienced analyst, or simply someone who works with data, mastering Pandas can greatly improve your productivity and data processing skills. This guide aims to provide a comprehensive overview of Pandas' essential methods and functions, allowing you to tackle complex data operations with ease and efficiency.
+[@ Scituffy creator](https://scituffy.bubbleapps.io/version-test/index/home)
+
+Pandas è una delle librerie più potenti e ampiamente utilizzate per la manipolazione e l'analisi dei dati in Python. Che tu sia un aspirante data scientist, un analista esperto o semplicemente qualcuno che lavora con i dati, padroneggiare Pandas può migliorare notevolmente la tua produttività e le tue capacità di elaborazione dei dati. Questa guida mira a fornire una panoramica completa dei metodi e delle funzioni essenziali di Pandas, consentendoti di affrontare complesse operazioni sui dati con facilità ed efficienza.
+
+## Argomenti da trattare in questa guida:  
+Ho scelto i 10 argomenti che, secondo me, sono più utilizzati in Pandas per analizzare i dati.  
 
 ### 1. **Caricamento dei Dati**
 
